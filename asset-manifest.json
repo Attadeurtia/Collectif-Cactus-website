@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Collectif-Cactus-website/static/css/main.39b04333.css",
+    "main.js": "/Collectif-Cactus-website/static/js/main.85d75fb0.js",
+    "static/js/496.0320d045.chunk.js": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js",
+    "index.html": "/Collectif-Cactus-website/index.html",
+    "main.39b04333.css.map": "/Collectif-Cactus-website/static/css/main.39b04333.css.map",
+    "main.85d75fb0.js.map": "/Collectif-Cactus-website/static/js/main.85d75fb0.js.map",
+    "496.0320d045.chunk.js.map": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39b04333.css",
+    "static/js/main.85d75fb0.js"
+  ]
+}
