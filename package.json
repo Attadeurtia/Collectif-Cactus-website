@@ -2,9 +2,7 @@
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
-
-  "homepage" : "https://attadeurtia.github.io/Collectif-Cactus-website/",
-
+  "homepage": "https://attadeurtia.github.io/Collectif-Cactus-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,9 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-
-    "predeploy" : "npm run build",
-    "deploy": "main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
