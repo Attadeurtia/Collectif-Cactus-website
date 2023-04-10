@@ -9,14 +9,14 @@ export default function Personnes() {
         { id: 1, nom: "Amaury", photo: "https://media.timeout.com/images/103671590/750/562/image.jpg" }
     ])
 
-    return <div className='App'>
+    return <div className='Personnes'>
 
         {personnes.map((personnes) => (
             <h3 key={personnes.id}>
-                {personnes.nom}
                 <img
                     src={personnes.photo} >
                 </img>
+                {personnes.nom}
             </h3>
         ))}
     </div>

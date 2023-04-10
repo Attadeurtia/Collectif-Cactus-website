@@ -1,12 +1,18 @@
+body {
+  font-family: Roboto;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
   background: #C2CAE8;
 }
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -19,6 +25,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -26,7 +33,65 @@
 .heart {
   color: #ff0000;
 }
+*/
 
 .small {
   font-size: 0.75rem;
+}
+
+h1,
+h2,
+p {
+  padding: 1rem;
+}
+
+.Personnes {
+  background-color: red;
+
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+
+  justify-content: space-between;
+
+}
+
+.Personnes img {
+  width: 58px;
+  height: 57px;
+  left: 106px;
+  top: 416px;
+  padding: 12%;
+}
+
+.Personnes h3 {
+  text-align: center;
+}
+
+.ApplicationUnitaire {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.ApplicationUnitaire img {
+  max-width: 100%;
+}
+.ApplicationUnitaire h3 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.ApplicationUnitaire p {
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+
+}
+
+.content{
+  flex: 1;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: aquamarine;
 }
