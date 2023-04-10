@@ -1,11 +1,11 @@
 body {
-  font-family: Inter, Roboto;
-  background-color: aliceblue;
+  font-family: 'Open Sans', Inter, Verdana, Roboto;
+  background-color: #f6f7f8;
+  color: #011627;
 }
 
 .App {
   /* text-align: center; */
-  background: #C2CAE8;
 }
 
 /*
@@ -45,15 +45,52 @@ h2,
 h3,
 p {
   padding: 1rem;
+  text-align: start;
 }
 
-.Personnes {
-  background-color: red;
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #2EC4B6;
+  }
 
+@media (min-width: 1200px) {
+  body {
+    margin: 15%;
+  }
+}
+
+/*about */
+
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 12px;
+}
+
+.about h2 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.about p {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+
+/* Personnes */
+
+.Personnes {
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 2;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   justify-content: space-between;
-
 }
 
 .Personnes img {
@@ -68,42 +105,112 @@ p {
   text-align: center;
 }
 
+@media (min-width: 600px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 12px;
+  }
+
+  .about h2 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .about p {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .Personnes {
+    grid-area: 1 / 2 / 3 / 3;
+
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 25% 25%;
+    justify-content: space-between;
+  }
+
+  .Personnes img {
+    width: 58px;
+    height: 57px;
+    left: 106px;
+    top: 416px;
+    padding: 12%;
+  }
+  
+  .Personnes h3 {
+    text-align: center;
+  }
+}
+
+
+/* Application */
 .ApplicationUnitaire {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 600px) {
+  .ApplicationUnitaire {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .ApplicationUnitaire {
+
+    margin: 15%;
+  }
+}
+
+
+
+/* texteApp */
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.item img {
+  /*   grid-area: 1 / 1 / 3 / 2; */
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+
   width: 100%;
-  flex-direction: column;
-  background-color: #1c42ce;
+  border-radius: 50%;
+
 }
 
-.ApplicationUnitaire img {
-  width: 30%;
+.item h3 {
+  /* grid-area: 1 / 2 / 2 / 3; */
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
 }
 
-.ApplicationUnitaire h3 {
-  margin: 0;
+.item p {
+  /*   grid-area: 2 / 2 / 3 / 3;*/
+  grid-row-start: 2;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
 }
 
-.ApplicationUnitaire p {
-  margin: 0;
-}
-
-.texteApp {
-  display: flex;
-  flex-direction: column;
-}
-
-.groupeApp {
-  display: flex;
-  flex-direction: row;
-  padding: 3%;
-}
-
-button{
-  background-color: #1c42ce;
-  color: white;
+button {
   border: none;
   padding: 1%;
   border-radius: 5px;
-  margin: 1%;
+  margin: 10%;
+
 }
