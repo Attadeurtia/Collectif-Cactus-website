@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Collectif-Cactus-website/static/css/main.db59af0b.css",
-    "main.js": "/Collectif-Cactus-website/static/js/main.6f76e706.js",
+    "main.css": "/Collectif-Cactus-website/static/css/main.9e6e05d2.css",
+    "main.js": "/Collectif-Cactus-website/static/js/main.e3456ddf.js",
     "static/js/496.0320d045.chunk.js": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js",
     "index.html": "/Collectif-Cactus-website/index.html",
-    "main.db59af0b.css.map": "/Collectif-Cactus-website/static/css/main.db59af0b.css.map",
-    "main.6f76e706.js.map": "/Collectif-Cactus-website/static/js/main.6f76e706.js.map",
+    "main.9e6e05d2.css.map": "/Collectif-Cactus-website/static/css/main.9e6e05d2.css.map",
+    "main.e3456ddf.js.map": "/Collectif-Cactus-website/static/js/main.e3456ddf.js.map",
     "496.0320d045.chunk.js.map": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db59af0b.css",
-    "static/js/main.6f76e706.js"
+    "static/css/main.9e6e05d2.css",
+    "static/js/main.e3456ddf.js"
   ]
 }
