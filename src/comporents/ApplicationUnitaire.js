@@ -14,7 +14,7 @@ export default function ApplicationUnitaire() {
     return <div className='ApplicationUnitaire'>
 
         {personnes.map((personnes) => (
-            <button class="item" key={personnes.id}>
+            <button class="itemApplication" key={personnes.id}>
                 <img
                     src={personnes.logo} alt="pdp">
                 </img>
