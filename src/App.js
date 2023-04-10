@@ -1,6 +1,7 @@
 import './App.css';
 import About from './comporents/About';
 import ApplicationSection from './comporents/ApplicationSection';
+import Entretien from './comporents/Entretien';
 import Hero from './comporents/Hero';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero/>
       <About />
       <ApplicationSection/>
+      <Entretien/>
     </div>
   );
 }

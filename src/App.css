@@ -1,5 +1,6 @@
 body {
-  font-family: Roboto;
+  font-family: Inter, Roboto;
+  background-color: aliceblue;
 }
 
 .App {
@@ -41,6 +42,7 @@ body {
 
 h1,
 h2,
+h3,
 p {
   padding: 1rem;
 }
@@ -49,8 +51,7 @@ p {
   background-color: red;
 
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-
+  grid-template-columns: 25% 25% 25% 25%;
   justify-content: space-between;
 
 }
@@ -72,26 +73,37 @@ p {
   align-items: center;
   width: 100%;
   flex-direction: column;
+  background-color: #1c42ce;
 }
 
 .ApplicationUnitaire img {
-  max-width: 100%;
+  width: 30%;
 }
+
 .ApplicationUnitaire h3 {
   margin: 0;
-  text-decoration: underline;
 }
 
 .ApplicationUnitaire p {
-  font-size: 100%;
-  line-height: 1;
   margin: 0;
-
 }
 
-.content{
-  flex: 1;
-  padding-left: 20px;
-  box-sizing: border-box;
-  background-color: aquamarine;
+.texteApp {
+  display: flex;
+  flex-direction: column;
+}
+
+.groupeApp {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
+
+button{
+  background-color: #1c42ce;
+  color: white;
+  border: none;
+  padding: 1%;
+  border-radius: 5px;
+  margin: 1%;
 }
