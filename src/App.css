@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', Inter, Verdana, Roboto;
+  font-family: 'Inter', 'Open Sans', Verdana, Roboto;
   background-color: #f6f7f8;
   color: #011627;
 }
@@ -39,7 +39,6 @@ body {
 .small {
   font-size: 0.75rem;
 }
-
 h1,
 h2,
 h3,
@@ -52,7 +51,7 @@ h1 {
   text-align: center;
   font-size: 5rem;
   color: #2EC4B6;
-  }
+}
 
 @media (min-width: 1200px) {
   body {
@@ -60,49 +59,45 @@ h1 {
   }
 }
 
-/*about */
 
 
-.about {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 12px;
-}
 
-.about h2 {
-  grid-area: 1 / 1 / 2 / 2;
-}
 
-.about p {
-  grid-area: 2 / 1 / 3 / 2;
-}
 
 
 /* Personnes */
 
 .Personnes {
-  grid-row-start: 3;
-  grid-column-start: 1;
-  grid-row-end: 4;
-  grid-column-end: 2;
   display: grid;
-  grid-template-columns:25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
+  
 }
 
+.itemPersonne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 15%;
+}
+
+
 .Personnes img {
-  width: 58px;
-  height: 57px;
-  left: 106px;
-  top: 416px;
-  padding: 12%;
+  max-width: 100%;
+  background: rgb(62, 143, 84);
 }
 
 .Personnes h3 {
-  text-align: center;
+  padding: 0;
 }
+
+
+
+
+
+
 
 @media (min-width: 600px) {
   .about {
@@ -115,6 +110,7 @@ h1 {
 
   .about h2 {
     grid-area: 1 / 1 / 2 / 2;
+    align-self: end;
   }
 
   .about p {
@@ -123,23 +119,14 @@ h1 {
 
   .Personnes {
     grid-area: 1 / 2 / 3 / 3;
-
     display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-rows: 25% 25%;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(66, 74, 74);
   }
 
-  .Personnes img {
-    width: 58px;
-    height: 57px;
-    left: 106px;
-    top: 416px;
-    padding: 12%;
-  }
-  
-  .Personnes h3 {
-    text-align: center;
+  .itemPersonne {
+    background-color: rgb(54, 202, 202);
   }
 }
 
@@ -161,9 +148,7 @@ h1 {
 }
 
 @media (min-width: 1200px) {
-  .ApplicationUnitaire {
-    margin: 15%;
-  }
+  .ApplicationUnitaire {}
 }
 
 
@@ -171,8 +156,8 @@ h1 {
 
 .itemApplication {
   display: grid;
-  grid-template-columns: 33% auto;
-  grid-template-rows: 75%, auto;
+  grid-template-columns: 33%;
+  grid-template-rows: 33%;
 }
 
 
@@ -180,13 +165,26 @@ h1 {
   /*   grid-area: 1 / 1 / 3 / 2; */
   grid-row-start: 1;
   grid-column-start: 1;
-
   grid-row-end: 3;
   grid-column-end: 2;
+  /*centrer l'image dans la ligne*/
+  align-self: center;
 
   width: 100%;
-  border-radius: 50%;
+  height: 100%;
 
+  /*forcer la longueur de l'image égale à la largeur*/
+  object-fit: cover;
+  /*cover, fill, contain, scale-down, none*/
+  overflow: hidden;
+
+}
+
+.itemApplication p,
+.itemApplication h3 {
+  padding: 0;
+  padding-left: 15%;
+  padding-right: 10%;
 }
 
 .itemApplication h3 {
@@ -196,10 +194,15 @@ h1 {
 
   grid-row-end: 2;
   grid-column-end: 3;
+
+  /*centrer le texte dans le bas de la grille*/
+  align-self: end;
+
 }
 
 .itemApplication p {
   /*   grid-area: 2 / 2 / 3 / 3;*/
+
   grid-row-start: 2;
   grid-column-start: 2;
 
@@ -207,10 +210,9 @@ h1 {
   grid-column-end: 3;
 }
 
+.itemApplication,
 button {
-  border: none;
-  padding: 1%;
   border-radius: 5px;
-  margin: 10%;
-
+  margin: 5%;
+  background: #2EC4B6;
 }
