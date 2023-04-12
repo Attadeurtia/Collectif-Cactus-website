@@ -70,27 +70,30 @@ h1 {
 .Personnes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
-  
 }
 
 .itemPersonne {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  align-self: end; 
+  justify-content: end; 
+  background-color: red;
   margin: 15%;
 }
 
 
 .Personnes img {
-  max-width: 100%;
+  max-width: 50%;
   background: rgb(62, 143, 84);
+  
+  border-radius: 50%;
 }
 
 .Personnes h3 {
   padding: 0;
+  align-items: right;
+  justify-content: right;
 }
 
 
