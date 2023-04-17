@@ -50,7 +50,7 @@ p {
 h1 {
   text-align: center;
   font-size: 5rem;
-  color: #2EC4B6;
+  color: #FF3366;
 }
 
 @media (min-width: 1200px) {
@@ -88,8 +88,11 @@ h1 {
   justify-content: end;
   margin: 15%;
 
-
-
+  border: #011627;
+  border:  3px solid;
+  border-radius: 5px;
+  background-color: #20A4F3;
+  padding: 10px;
 }
 
 
@@ -160,6 +163,12 @@ h1 {
   display: grid;
   grid-template-columns: 33%;
   grid-template-rows: 33%;
+
+  border: #011627;
+  border:  3px solid;
+  border-radius: 5px;
+  background-color: #2EC4B6;
+  padding: 10px;
 }
 
 
