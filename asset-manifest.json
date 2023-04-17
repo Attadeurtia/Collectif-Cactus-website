@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Collectif-Cactus-website/static/css/main.aba9f969.css",
-    "main.js": "/Collectif-Cactus-website/static/js/main.01825b9a.js",
+    "main.css": "/Collectif-Cactus-website/static/css/main.db59af0b.css",
+    "main.js": "/Collectif-Cactus-website/static/js/main.6f76e706.js",
     "static/js/496.0320d045.chunk.js": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js",
-    "static/media/Geoffrey.png": "/Collectif-Cactus-website/static/media/Geoffrey.94e782a343462c971eae.png",
     "index.html": "/Collectif-Cactus-website/index.html",
-    "main.aba9f969.css.map": "/Collectif-Cactus-website/static/css/main.aba9f969.css.map",
-    "main.01825b9a.js.map": "/Collectif-Cactus-website/static/js/main.01825b9a.js.map",
+    "main.db59af0b.css.map": "/Collectif-Cactus-website/static/css/main.db59af0b.css.map",
+    "main.6f76e706.js.map": "/Collectif-Cactus-website/static/js/main.6f76e706.js.map",
     "496.0320d045.chunk.js.map": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aba9f969.css",
-    "static/js/main.01825b9a.js"
+    "static/css/main.db59af0b.css",
+    "static/js/main.6f76e706.js"
   ]
 }
