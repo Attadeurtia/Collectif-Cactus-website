@@ -146,7 +146,7 @@ body {
   flex-direction: column;
   align-items: center;
   align-self: end;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 15%;
 
   border: #011627;
