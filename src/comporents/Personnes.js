@@ -1,7 +1,5 @@
 import { useState } from "react"
 
-// import Julien from "public/personnes/Julien.png"
-
 export default function Personnes() {
 
     const [personnes] = useState([
