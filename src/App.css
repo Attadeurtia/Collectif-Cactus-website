@@ -74,6 +74,12 @@ h3,
 p {
   padding: 1rem;
   text-align: start;
+
+  border: #011627;
+  border:  7px solid;
+  border-radius: 5px;
+  background-color: #f6f7f8;
+  padding: 10px;
 }
 
 
@@ -81,7 +87,7 @@ p {
 h1 {
   text-align: center;
   font-size: 5rem;
-  color: #FF3366;
+  background-color: #FF3366;
 }
 
 @media (min-width: 1200px) {
@@ -93,9 +99,6 @@ h1 {
     font-size: 7rem;
   }
 
-  p {
-    font-size: 1.5rem;
-  }
 }
 
 
@@ -120,11 +123,15 @@ h1 {
   margin: 15%;
 
   border: #011627;
-  border:  3px solid;
+  border:  7px solid;
   border-radius: 5px;
   background-color: #20A4F3;
   padding: 10px;
 
+
+  height: -webkit-fill-available;
+/*   margin-block: 0;
+ */
 
 }
 
@@ -133,12 +140,21 @@ h1 {
   max-width: 75%;
 
   border-radius: 50%;
+
+  
+
 }
 
 .Personnes h3 {
   padding: 0;
   align-items: right;
   justify-content: right;
+
+  border: #011627;
+  border:  0;
+  border-radius: 5px;
+  background-color: #20A4F3;
+  padding: 0;
 }
 
 
@@ -202,6 +218,9 @@ h1 {
   border-radius: 5px;
   background-color: #2EC4B6;
   padding: 10px;
+  grid-template-rows: auto;
+  place-content: end;
+
 }
 
 
