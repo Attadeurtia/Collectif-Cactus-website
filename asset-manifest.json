@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Collectif-Cactus-website/static/css/main.6f46596d.css",
-    "main.js": "/Collectif-Cactus-website/static/js/main.ec11fc2e.js",
-    "static/js/496.0320d045.chunk.js": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js",
-    "static/media/Union.png": "/Collectif-Cactus-website/static/media/Union.d348817cc5b7bdbd0838.png",
-    "index.html": "/Collectif-Cactus-website/index.html",
-    "main.6f46596d.css.map": "/Collectif-Cactus-website/static/css/main.6f46596d.css.map",
-    "main.ec11fc2e.js.map": "/Collectif-Cactus-website/static/js/main.ec11fc2e.js.map",
-    "496.0320d045.chunk.js.map": "/Collectif-Cactus-website/static/js/496.0320d045.chunk.js.map"
+    "main.css": "./static/css/main.6f46596d.css",
+    "main.js": "./static/js/main.509b1c16.js",
+    "static/js/496.0320d045.chunk.js": "./static/js/496.0320d045.chunk.js",
+    "static/media/Union.png": "./static/media/Union.d348817cc5b7bdbd0838.png",
+    "index.html": "./index.html",
+    "main.6f46596d.css.map": "./static/css/main.6f46596d.css.map",
+    "main.509b1c16.js.map": "./static/js/main.509b1c16.js.map",
+    "496.0320d045.chunk.js.map": "./static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f46596d.css",
-    "static/js/main.ec11fc2e.js"
+    "static/js/main.509b1c16.js"
   ]
 }
