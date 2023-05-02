@@ -11,7 +11,7 @@ export default function Personnes() {
 
     return <div className='Personnes'>
         {personnes.map((personnes) => (
-            <div class="itemPersonne" key={personnes.id}>
+            <div class="itemPersonne boite" key={personnes.id}>
                 <img src={personnes.photo} alt="pdp" ></img>
                 <h3>{personnes.nom}</h3>
             </div>
