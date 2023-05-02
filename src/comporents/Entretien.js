@@ -1,6 +1,6 @@
 export default function Entretien() {
 
-    return <div className='Entretien'>
+    return <div className='Entretien boite'>
         <h2>Comment prendre soin des cactus: </h2>
         <p>Les cactus sont des plantes très adaptables qui poussent dans des climats chauds ou semi-arides. Ils sont magnifiques et sont généralement très faciles à entretenir, mais il est important de connaître les bonnes pratiques pour prendre soin de vos cactus. Voici quelques conseils pour en prendre soin.</p>
         <h3>Eclairage</h3>

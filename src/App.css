@@ -1,11 +1,18 @@
 :root {
-  --border-bloc: 6px solid;
+  --border-bloc: 3px solid #011627;
+
+
+  /* variable avec 4 valeurs  de border differentes */
+
 }
 
 body {
   font-family: 'Inter', 'Open Sans', Verdana, Roboto;
   background-color: #f6f7f8;
   color: #011627;
+
+  background-image: linear-gradient(90deg, rgba(0,0,0,.1) 1px, transparent 1px), linear-gradient(rgba(0,0,0,.1) 1px, transparent 1px);
+  background-size: 15px 15px;
 }
 
 .App {
@@ -88,11 +95,17 @@ h1 {
   text-align: center;
   font-size: 5rem;
 
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+  border: 2px 5px 12px 5px inherit;
+  border-radius: 16px;
   background-color: #FF3366;
   padding: 10px;
+
+
+  border-top: 3px solid #011627;
+  border-right: 7px solid #011627;
+  border-bottom: 8px solid #011627;
+  border-left: 3px solid #011627;
 }
 
 body {
@@ -110,20 +123,30 @@ body {
 
 }
 
+.boite {
+  border-radius: 16px;
+  border: #011627;
+
+  border-top: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 8px solid;
+  border-left: 3px solid;
+}
+
 /* about */
 
 .about p {
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+
+
   background-color: #f6f7f8;
   padding: 10px;
 }
 
 .about h2 {
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+
+
   background-color: #FF3366;
   padding: 10px;
 }
@@ -149,9 +172,9 @@ body {
   justify-content: flex-end;
   margin: 15%;
 
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+
+
   background-color: #20A4F3;
   padding: 10px;
 
@@ -179,9 +202,9 @@ body {
   align-items: right;
   justify-content: right;
 
-  border: #011627;
+
   border: 0;
-  border-radius: 5px;
+
   background-color: #20A4F3;
   padding: 0;
 }
@@ -244,9 +267,9 @@ body {
   grid-template-columns: 33%;
   grid-template-rows: 33%;
 
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+
+
   background-color: #2EC4B6;
   padding: 10px;
   grid-template-rows: auto;
@@ -309,16 +332,15 @@ body {
 
 .itemApplication,
 button {
-  border-radius: 5px;
+
   margin: 5%;
 }
 
 .Entretien {
   margin-top: 250px;
-  border: #011627;
-  border: var(--border-bloc);
-  border-radius: 5px;
+
+
+
   background-color: #f6f7f8;
   padding: 10px;
-
 }
