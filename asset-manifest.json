@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.6f46596d.css",
-    "main.js": "./static/js/main.7f7f129d.js",
+    "main.css": "./static/css/main.a0ac2b9a.css",
+    "main.js": "./static/js/main.4f1b64df.js",
     "static/js/496.0320d045.chunk.js": "./static/js/496.0320d045.chunk.js",
     "static/media/Union.png": "./static/media/Union.d348817cc5b7bdbd0838.png",
     "index.html": "./index.html",
-    "main.6f46596d.css.map": "./static/css/main.6f46596d.css.map",
-    "main.7f7f129d.js.map": "./static/js/main.7f7f129d.js.map",
+    "main.a0ac2b9a.css.map": "./static/css/main.a0ac2b9a.css.map",
+    "main.4f1b64df.js.map": "./static/js/main.4f1b64df.js.map",
     "496.0320d045.chunk.js.map": "./static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f46596d.css",
-    "static/js/main.7f7f129d.js"
+    "static/css/main.a0ac2b9a.css",
+    "static/js/main.4f1b64df.js"
   ]
 }
