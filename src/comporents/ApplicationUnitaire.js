@@ -11,16 +11,18 @@ export default function ApplicationUnitaire() {
         { id: 6, nom: "Cinémans", description: "À la manière d'AlloCiné ou SensCritique, notre site web dédié uniquement aux films et séries, à travers critiques, notes classement et bien plus encore.", logo: "https://tp4-cinemans.pages.dev/assets/logo/logo_white.svg" },
     ])
 
-    return <div className='ApplicationUnitaire'>
+    return <div id="mon-span" className='ApplicationUnitaire'>
 
         {application.map((application) => (
-            <div class="itemApplication boite" key={application.id}>
+            <div class="itemApplication boite" id="mon-span" key={application.id}>
                 <img
                     src={application.logo} alt="icone d'aplication">
                 </img>
                 <h3>{application.nom}</h3>
-                <p>{application.description}</p>
+                <p id="mon-span">{application.description}</p>
             </div>
-        ))}
+        ))
+
+        }
     </div>
 }
