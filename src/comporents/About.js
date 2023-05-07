@@ -1,9 +1,15 @@
 import Personnes from "./Personnes";
 
-export default function About(){
+// quand on clique sur le bouton, on redirie vers une autre page
+
+
+
+
+export default function About() {
     return <div className='about' >
-    <h2 className='boite'>À propos :</h2>
-    <p className="boite">Le collectif Cactus est un projet vaste et encore indéfini nous unissant sous la bannière de ce concept, tenter, produire, expérimenter, apprendre. </p>
-    <Personnes></Personnes>
-</div>
+        <h2 className='boite'>À propos :</h2>
+        <p className="boite" id="mon-span">Le collectif Cactus est un projet vaste et encore indéfini nous unissant sous la bannière de ce concept, tenter, produire, expérimenter, apprendre. </p>
+        <Personnes></Personnes>
+    </div>
 }
+
