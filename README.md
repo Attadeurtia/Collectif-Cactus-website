@@ -3,6 +3,7 @@
 ## Description
 
 Ce projet est un site web vitrine des projets du Collectif Cactus. Il est réalisé avec le framework React.
+le site est disponible à l'adresse suivante : <https://attadeurtia.github.io/Collectif-Cactus-website/>
 
 ## Direction artistique
 
