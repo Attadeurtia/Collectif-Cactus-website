@@ -2,8 +2,19 @@
   --border-bloc: 3px solid #011627;
 }
 
+@font-face {
+  font-family: 'Overpass Mono';
+  src: url('res/fonts/overpass-mono-regular.otf')format('truetype');
+
+  font-family: 'Overpass Mono bold';
+  src: url('res/fonts/overpass-mono-bold.otf')format('truetype');
+
+  font-family: 'Overpass Mono semibold';
+  src: url('res/fonts/overpass-mono-semibold.otf')format('truetype');
+}
+
 body {
-  font-family: 'Overpass Mono' 'Inter', 'Open Sans', Verdana, Roboto;
+  font-family: 'Overpass Mono semibold', 'Inter', 'Open Sans', Verdana, Roboto;
   background-color: #f6f7f8;
   color: #011627;
 
@@ -93,7 +104,6 @@ h1 {
   font-size: 5rem;
 
   border: 2px 5px 12px 5px inherit;
-  border-radius: 16px;
   background-color: #FF3366;
   padding: 10px;
 }
@@ -107,9 +117,6 @@ body {
     margin: 10%;
   }
 
-  h1 {
-    font-size: 7rem;
-  }
 
 }
 
@@ -139,7 +146,6 @@ body {
 textarea,
 a {
   outline: none;
-  font-family: 'Inter', 'Open Sans', Verdana, Roboto;
   padding: 10px;
   margin-bottom: 7.5%;
 }
