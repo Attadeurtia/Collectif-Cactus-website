@@ -118,21 +118,21 @@ body {
   }
 }
 
-/* boit */
+/* boite */
 
 .boite {
-  box-sizing: border-box;
-
   border-radius: 16px;
   border: #011627;
-  border-width : 3px, 9px, 10px, 3px;
 
+  border-top: 3px solid;
+  border-right: 9px solid;
+  border-bottom: 10px solid;
+  border-left: 3px solid;
 }
 
 .boite:hover {
-  box-sizing: border-box;
-  border-width : 3px;
-
+/*   box-sizing: border-box; */
+  border-width: 3px;
   cursor: pointer;
 }
 
