@@ -86,8 +86,6 @@ h3,
 p {
   padding: 1rem;
   text-align: start;
-
-
 }
 
 
@@ -96,17 +94,10 @@ h1 {
   text-align: center;
   font-size: 5rem;
 
-
   border: 2px 5px 12px 5px inherit;
   border-radius: 16px;
   background-color: #FF3366;
   padding: 10px;
-
-
-  border-top: 3px solid #011627;
-  border-right: 7px solid #011627;
-  border-bottom: 8px solid #011627;
-  border-left: 3px solid #011627;
 }
 
 body {
@@ -138,9 +129,7 @@ body {
   filter: contrast(80%);
 }
 
-/* quand on clique sur la boite */
 .boite:active {
-
 
   border-top: 3px solid;
   border-right: 3px solid;
@@ -148,29 +137,22 @@ body {
   border-left: 3px solid;
 
   cursor: pointer;
-
 }
 
 /* about */
 
 .about p,
+textarea,
 a {
-
-
-  text-decoration: none;
-  color: #011627;
-
-  background-color: #f6f7f8;
+  outline: none;
+  font-family: 'Inter', 'Open Sans', Verdana, Roboto;
   padding: 10px;
+  margin-bottom: 7.5%;
 }
 
 .about h2 {
-
-
-
   background-color: #FF3366;
   padding: 10px;
-
 }
 
 
@@ -180,10 +162,6 @@ a {
 .Personnes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
-
-
-
 }
 
 .itemPersonne {
@@ -194,12 +172,8 @@ a {
   justify-content: flex-end;
   margin: 15%;
 
-
-
-
   background-color: #20A4F3;
   padding: 10px;
-
 
   height: -webkit-fill-available;
   /*   margin-block: 0;
@@ -212,11 +186,6 @@ a {
   max-width: 75%;
 
   border-radius: 50%;
-
-
-
-
-
 }
 
 .Personnes h3 {
@@ -224,19 +193,13 @@ a {
   align-items: right;
   justify-content: right;
 
-
   border: 0;
 
   background-color: #20A4F3;
   padding: 0;
+
+  font-size: 0.5em;
 }
-
-
-
-
-
-
-
 
 
 @media (min-width: 600px) {
@@ -263,6 +226,10 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .about h3{
+    font-size: 1em;
+  }
 }
 
 
@@ -284,13 +251,15 @@ a {
 
 /* texteApp */
 
+.ApplicationSection h2 {
+  background-color:#FF3366;
+  margin-top: 15%;
+}
+
 .itemApplication {
   display: grid;
   grid-template-columns: 33%;
   grid-template-rows: 33%;
-
-
-
 
   background-color: #2EC4B6;
   padding: 10px;
