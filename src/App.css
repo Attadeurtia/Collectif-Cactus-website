@@ -1,13 +1,9 @@
 :root {
   --border-bloc: 3px solid #011627;
-
-
-  /* variable avec 4 valeurs  de border differentes */
-
 }
 
 body {
-  font-family: 'Inter', 'Open Sans', Verdana, Roboto;
+  font-family: 'Overpass Mono' 'Inter', 'Open Sans', Verdana, Roboto;
   background-color: #f6f7f8;
   color: #011627;
 
@@ -16,9 +12,11 @@ body {
   background-size: 15px 15px;
 }
 
+/*
 .App {
-  /* text-align: center; */
+  text-align: center; 
 }
+*/
 
 .union1 {
   position: fixed;
@@ -126,10 +124,6 @@ body {
 }
 
 .boite:hover {
-  filter: contrast(80%);
-}
-
-.boite:active {
 
   border-top: 3px solid;
   border-right: 3px solid;
