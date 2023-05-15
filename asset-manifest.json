@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.40f4c8ee.css",
-    "main.js": "./static/js/main.873f4dd3.js",
+    "main.css": "./static/css/main.5e66c71c.css",
+    "main.js": "./static/js/main.73198866.js",
     "static/js/496.0320d045.chunk.js": "./static/js/496.0320d045.chunk.js",
     "static/media/Union.png": "./static/media/Union.d348817cc5b7bdbd0838.png",
     "static/media/overpass-mono-bold.otf": "./static/media/overpass-mono-bold.86de4a719b14901e3686.otf",
     "static/media/overpass-mono-semibold.otf": "./static/media/overpass-mono-semibold.b0305dfb464645be4f56.otf",
     "static/media/overpass-mono-regular.otf": "./static/media/overpass-mono-regular.092a50f010b8590c9040.otf",
     "index.html": "./index.html",
-    "main.40f4c8ee.css.map": "./static/css/main.40f4c8ee.css.map",
-    "main.873f4dd3.js.map": "./static/js/main.873f4dd3.js.map",
+    "main.5e66c71c.css.map": "./static/css/main.5e66c71c.css.map",
+    "main.73198866.js.map": "./static/js/main.73198866.js.map",
     "496.0320d045.chunk.js.map": "./static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40f4c8ee.css",
-    "static/js/main.873f4dd3.js"
+    "static/css/main.5e66c71c.css",
+    "static/js/main.73198866.js"
   ]
 }
