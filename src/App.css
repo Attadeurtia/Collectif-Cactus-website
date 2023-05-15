@@ -122,15 +122,18 @@ body {
   border: var(--black);
 
   border-top: 3px solid;
-  border-right: 9px solid;
-  border-bottom: 10px solid;
+  border-right: 5.2px solid;
+  border-bottom: 6px solid;
   border-left: 3px solid;
+
+  transition: border-width 0.17s; /* Transition pour une animation fluide */
+  box-sizing: border-box; /* Inclure la taille du bord dans la taille totale */
 }
 
 .boite:hover {
   /*   box-sizing: border-box; */
   border-width: 3px;
-  cursor: pointer;
+   cursor: pointer ;
 }
 
 h1 {
@@ -145,7 +148,6 @@ h1 {
 @media (min-width: 600px) {
   h1 {
     font-size: 5em;
-    background-color: var(--blue);
   }
 }
 
@@ -365,5 +367,12 @@ button {
   .ApplicationSection,
   .Entretien {
     margin-top: 10%;
+  }
+
+  .boite {
+    border-top: 3px solid;
+    border-right: 9px solid;
+    border-bottom: 10px solid;
+    border-left: 3px solid;
   }
 }
