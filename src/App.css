@@ -1,5 +1,10 @@
 :root {
   --border-bloc: 3px solid #011627;
+  --red: #FF3366;
+  --blue: #20A4F3;
+  --green: #2EC4B6;
+  --black: #011627;
+  --white: #f6f7f8;
 }
 
 @font-face {
@@ -15,8 +20,8 @@
 
 body {
   font-family: 'Overpass Mono semibold', 'Inter', 'Open Sans', Verdana, Roboto;
-  background-color: #f6f7f8;
-  color: #011627;
+  background-color: var(--white);
+  color: var(--black);
 
   background-image: linear-gradient(90deg, rgba(0, 0, 0, .1) 1px, transparent 1px), linear-gradient(rgba(0, 0, 0, .1) 1px, transparent 1px);
   background-attachment: fixed;
@@ -104,7 +109,7 @@ h1 {
   font-size: 5rem;
 
   border: 2px 5px 12px 5px inherit;
-  background-color: #FF3366;
+  background-color: var(--red);
   padding: 10px;
 }
 
@@ -122,7 +127,7 @@ body {
 
 .boite {
   border-radius: 16px;
-  border: #011627;
+  border: var(--black);
 
   border-top: 3px solid;
   border-right: 9px solid;
@@ -147,7 +152,7 @@ a {
 }
 
 .about h2 {
-  background-color: #FF3366;
+  background-color: var(--red);
   padding: 10px;
 }
 
@@ -168,7 +173,7 @@ a {
   justify-content: flex-end;
   margin: 15%;
 
-  background-color: #20A4F3;
+  background-color: var(--blue);
   padding: 10px;
 
   height: -webkit-fill-available;
@@ -191,7 +196,7 @@ a {
 
   border: 0;
 
-  background-color: #20A4F3;
+  background-color: var(--blue);
   padding: 0;
 
   font-size: 0.5em;
@@ -248,7 +253,7 @@ a {
 /* texteApp */
 
 .ApplicationSection h2 {
-  background-color:#FF3366;
+  background-color:var(--red);
   margin-top: 15%;
 }
 
@@ -257,7 +262,7 @@ a {
   grid-template-columns: 33%;
   grid-template-rows: 33%;
 
-  background-color: #2EC4B6;
+  background-color: var(--green);
   padding: 10px;
   grid-template-rows: auto;
 
@@ -328,6 +333,6 @@ button {
 
 
 
-  background-color: #f6f7f8;
+  background-color: var(--white);
   padding: 10px;
 }
