@@ -5,6 +5,9 @@
   --green: #2EC4B6;
   --black: #011627;
   --white: #f6f7f8;
+
+  --marginTopMobile: 30%;
+  --marginTopDesktop: 10%;
 }
 
 @font-face {
@@ -102,17 +105,6 @@ p {
   text-align: start;
 }
 
-
-
-h1 {
-  text-align: center;
-  font-size: 5rem;
-
-  border: 2px 5px 12px 5px inherit;
-  background-color: var(--red);
-  padding: 10px;
-}
-
 body {
   margin: 5%;
 }
@@ -136,19 +128,47 @@ body {
 }
 
 .boite:hover {
-/*   box-sizing: border-box; */
+  /*   box-sizing: border-box; */
   border-width: 3px;
   cursor: pointer;
 }
 
+h1 {
+  text-align: center;
+  font-size: 300%;
+
+  border: 2px 5px 12px 5px inherit;
+  background-color: var(--red);
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 5em;
+    background-color: var(--blue);
+  }
+}
+
 /* about */
 
-.about p,
-textarea,
-a {
+.about {
+  margin-top: 30%;
+}
+
+.about textarea {
   outline: none;
   padding: 10px;
   margin-bottom: 7.5%;
+
+  width: 100%;
+  box-sizing: border-box;
+  height: 9em;
+}
+
+@media screen and (min-width: 600px) {
+  .about textarea {
+    height: auto;
+  }
 }
 
 .about h2 {
@@ -228,7 +248,7 @@ a {
     grid-template-rows: 1fr 1fr;
   }
 
-  .about h3{
+  .about h3 {
     font-size: 1em;
   }
 }
@@ -252,9 +272,12 @@ a {
 
 /* texteApp */
 
+.ApplicationSection {
+  margin-top: 30%;
+}
+
 .ApplicationSection h2 {
-  background-color:var(--red);
-  margin-top: 15%;
+  background-color: var(--red);
 }
 
 .itemApplication {
@@ -329,10 +352,18 @@ button {
 }
 
 .Entretien {
-  margin-top: 250px;
-
-
+  margin-top: 30%;
 
   background-color: var(--white);
   padding: 10px;
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .about,
+  .ApplicationSection,
+  .Entretien {
+    margin-top: 10%;
+  }
 }
