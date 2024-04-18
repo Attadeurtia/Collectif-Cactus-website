@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.5e66c71c.css",
-    "main.js": "./static/js/main.73198866.js",
+    "main.js": "./static/js/main.8fc5133d.js",
     "static/js/496.0320d045.chunk.js": "./static/js/496.0320d045.chunk.js",
     "static/media/Union.png": "./static/media/Union.d348817cc5b7bdbd0838.png",
     "static/media/overpass-mono-bold.otf": "./static/media/overpass-mono-bold.86de4a719b14901e3686.otf",
@@ -9,11 +9,11 @@
     "static/media/overpass-mono-regular.otf": "./static/media/overpass-mono-regular.092a50f010b8590c9040.otf",
     "index.html": "./index.html",
     "main.5e66c71c.css.map": "./static/css/main.5e66c71c.css.map",
-    "main.73198866.js.map": "./static/js/main.73198866.js.map",
+    "main.8fc5133d.js.map": "./static/js/main.8fc5133d.js.map",
     "496.0320d045.chunk.js.map": "./static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e66c71c.css",
-    "static/js/main.73198866.js"
+    "static/js/main.8fc5133d.js"
   ]
 }
